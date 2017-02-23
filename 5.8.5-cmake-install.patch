@@ -1,0 +1,11 @@
+--- origsrc/kmenuedit-5.8.5/CMakeLists.txt	2016-12-27 05:24:33.000000000 -0600
++++ src/kmenuedit-5.8.5/CMakeLists.txt	2017-02-05 16:17:49.738597900 -0600
+@@ -72,7 +72,7 @@ target_link_libraries(kdeinit_kmenuedit
+     KF5::KDELibs4Support
+ )
+ 
+-install(TARGETS kdeinit_kmenuedit  DESTINATION ${KDE_INSTALL_LIBDIR} )
++install(TARGETS kdeinit_kmenuedit ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )
+ 
+ target_link_libraries( kmenuedit kdeinit_kmenuedit )
+ install(TARGETS kmenuedit ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

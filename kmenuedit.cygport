@@ -1,0 +1,10 @@
+inherit kf5
+
+NAME="kmenuedit"
+VERSION=5.8.5
+RELEASE=1
+CATEGORY="KDE"
+SUMMARY="KDE menu editor"
+DESCRIPTION="KMenuEdit allows editing one of the KDE application launchers."
+
+PATCH_URI="5.8.5-cmake-install.patch"
